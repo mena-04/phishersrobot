@@ -57,6 +57,7 @@ avoidance must be defeated (3.3).
 
 ```
 README.md                                    this index
+SUMMARY.md                                   one-page scoreboard / status
 COMPETITION-DAY-PLAN.md                      minute-by-minute run order for 13 Nov
 01-passwords.md                              Criterion 1
 02-data-access-final.md                      Criterion 2
@@ -67,6 +68,9 @@ COMPETITION-DAY-PLAN.md                      minute-by-minute run order for 13 N
 06-technical-sophistication-handoff.md       Criterion 6
 07-creativity-and-bonus.md                   Criteria 7 & 8
 scripts/                                      parametric ROS helpers (see scripts/README.md)
+docs/session-setup.md                         earlier WSL / wireless / ROS-network setup history
+docs/evidence-status.md                       asset inventory + lab transfer checklist
+docs/handoffs/Criterion_3_Continuation_Handoff.pdf   original 9-page Criterion 3 handoff (8 Nov)
 ```
 
 ## Quick start on competition day

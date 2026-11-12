@@ -173,6 +173,13 @@ Because the planner sees clear space, it will not swerve. Keep the leg short and
 the speed default. **Stop immediately after contact** — you only need to
 demonstrate the intentional hit, not repeatedly ram it.
 
+> **Caveat (don't overclaim the physics).** Sensor height makes the hit *likely*,
+> not *guaranteed*: the prop can still be caught by the inflation radius of nearby
+> visible obstacles, by a reflective edge that returns a stray beam, or by the
+> robot's own footprint padding. Treat the LiDAR blind spot as the mechanism, run
+> it once to confirm, and only then call the judge — don't present it as a
+> certainty before you've seen it happen.
+
 **Why this is a legitimate criterion, not a crude bump:** the *point* being
 demonstrated is a real sensor-coverage vulnerability — a short obstacle below the
 scan plane is invisible to LiDAR-only avoidance. Say exactly that to the judge;
