@@ -1,0 +1,33 @@
+# Keep sensitive / live competition data out of the public repo.
+
+# Live arena coordinates and IPs (only the .example template is tracked)
+scripts/arena_coords.env
+
+# GenAI prompt/answer history — submit directly to judges, never push
+genai-history/
+*genai*history*
+*prompt*answer*history*
+
+# Competition map / arena files
+*.pgm
+*.yaml
+!package.xml
+maps/
+hmr-lab/
+
+# Captured secrets / credentials / handshakes
+*.cap
+*.pcap
+*.hccapx
+*.ifc
+creds*.txt
+*password*.txt
+
+# Evidence media (store locally / share privately, large + may contain arena)
+evidence/
+*.bag
+
+# Python / OS cruft
+__pycache__/
+*.pyc
+.DS_Store
